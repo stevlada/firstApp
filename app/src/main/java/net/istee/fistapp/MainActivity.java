@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String name = mEnterNameEditText.getText().toString();
 
-                Toast.makeText(MainActivity.this,"Hello " + name, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Zdravo " + name, Toast.LENGTH_LONG).show();
 
                 mDisplayNameTextView.setVisibility(View.VISIBLE);
                 mDisplayNameTextView.setText(name);
