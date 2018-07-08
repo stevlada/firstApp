@@ -31,13 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(MainActivity.this,"Hello " + name, Toast.LENGTH_LONG).show();
 
-                Scanner sc = new Scanner(name);
-
                 mDisplayNameTextView.setVisibility(View.VISIBLE);
                 mDisplayNameTextView.setText(name);
             }
         });
-
-
     }
 }
